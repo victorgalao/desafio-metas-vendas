@@ -1,3 +1,4 @@
+ 
 # Vendas x Metas — Análise de Business Intelligence com Power BI
 
 Projeto de Business Intelligence desenvolvido no Microsoft Power BI para análise de vendas, acompanhamento de metas comerciais e comparação do desempenho entre 2017 e 2018.
@@ -45,15 +46,15 @@ O relatório foi construído para responder às 15 perguntas propostas no docume
 
 ## 3. Ferramentas e tecnologias
 
-| Tecnologia                 | Aplicação                                                    |
-| -------------------------- | ------------------------------------------------------------ |
+| Tecnologia | Aplicação |
+|---|---|
 | Microsoft Power BI Desktop | Desenvolvimento dos relatórios, indicadores e visualizações. |
-| Power Query                | Importação, limpeza e transformação dos dados.               |
-| Linguagem M                | Criação de colunas personalizadas e regras de transformação. |
-| DAX                        | Desenvolvimento de medidas e cálculos analíticos.            |
-| Microsoft Excel            | Fonte de dados de vendas e metas.                            |
-| CSV e JSON                 | Fontes de dados cadastrais e auxiliares.                     |
-| GitHub                     | Versionamento e documentação do projeto.                     |
+| Power Query | Importação, limpeza e transformação dos dados. |
+| Linguagem M | Criação de colunas personalizadas e regras de transformação. |
+| DAX | Desenvolvimento de medidas e cálculos analíticos. |
+| Microsoft Excel | Fonte de dados de vendas e metas. |
+| CSV e JSON | Fontes de dados cadastrais e auxiliares. |
+| GitHub | Versionamento e documentação do projeto. |
 
 ---
 
@@ -63,17 +64,17 @@ Foram disponibilizados dados transacionais de vendas e metas, além de cadastros
 
 As principais tabelas utilizadas no modelo foram:
 
-| Tabela          | Descrição                                                                                                |
-| --------------- | -------------------------------------------------------------------------------------------------------- |
-| `Vendas`        | Registros das transações comerciais, datas, produtos, clientes, quantidades, preços, custos e descontos. |
-| `Cliente`       | Informações cadastrais e identificadores dos clientes.                                                   |
-| `Produto`       | Cadastro de produtos, marcas e identificadores de subcategoria.                                          |
-| `Subcategoria`  | Classificação dos produtos em subcategorias e categorias.                                                |
-| `Localizacao`   | Informações geográficas de cidades, estados/províncias e países.                                         |
-| `Metas`         | Metas comerciais organizadas por categoria, continente e ano.                                            |
-| `DimAno`        | Dimensão auxiliar para análise temporal.                                                                 |
-| `DimCategoria`  | Dimensão auxiliar para padronização das categorias.                                                      |
-| `DimContinente` | Dimensão auxiliar para análise geográfica.                                                               |
+| Tabela | Descrição |
+|---|---|
+| `Vendas` | Registros das transações comerciais, datas, produtos, clientes, quantidades, preços, custos e descontos. |
+| `Cliente` | Informações cadastrais e identificadores dos clientes. |
+| `Produto` | Cadastro de produtos, marcas e identificadores de subcategoria. |
+| `Subcategoria` | Classificação dos produtos em subcategorias e categorias. |
+| `Localizacao` | Informações geográficas de cidades, estados/províncias e países. |
+| `Metas` | Metas comerciais organizadas por categoria, continente e ano. |
+| `DimAno` | Dimensão auxiliar para análise temporal. |
+| `DimCategoria` | Dimensão auxiliar para padronização das categorias. |
+| `DimContinente` | Dimensão auxiliar para análise geográfica. |
 
 ---
 
@@ -213,18 +214,18 @@ As medidas foram desenvolvidas com foco nas perguntas propostas pelo desafio.
 
 Entre os principais indicadores utilizados estão:
 
-| Indicador                                | Finalidade                                                         |
-| ---------------------------------------- | ------------------------------------------------------------------ |
-| `Faturamento Total`                      | Consolidar o faturamento do período.                               |
-| `Meta Total`                             | Consolidar o valor das metas.                                      |
-| `% Atingimento da Meta`                  | Comparar o faturamento realizado com a meta estabelecida.          |
-| `% Participação no Faturamento`          | Calcular a representatividade das categorias no faturamento total. |
-| `Faturamento 2017`                       | Apurar o faturamento de 2017.                                      |
-| `Faturamento 2018`                       | Apurar o faturamento de 2018.                                      |
-| `Variação Faturamento %`                 | Comparar o faturamento de 2018 com o de 2017.                      |
-| `Variação Representatividade Desktops %` | Avaliar a mudança de participação da subcategoria Desktops.        |
-| `Variação Desktops por Continente %`     | Comparar o comportamento de Desktops entre os continentes.         |
-| `Faturamento por Categoria 2018`         | Apresentar o faturamento por categoria em 2018.                    |
+| Indicador | Finalidade |
+|---|---|
+| `Faturamento Total` | Consolidar o faturamento do período. |
+| `Meta Total` | Consolidar o valor das metas. |
+| `% Atingimento da Meta` | Comparar o faturamento realizado com a meta estabelecida. |
+| `% Participação no Faturamento` | Calcular a representatividade das categorias no faturamento total. |
+| `Faturamento 2017` | Apurar o faturamento de 2017. |
+| `Faturamento 2018` | Apurar o faturamento de 2018. |
+| `Variação Faturamento %` | Comparar o faturamento de 2018 com o de 2017. |
+| `Variação Representatividade Desktops %` | Avaliar a mudança de participação da subcategoria Desktops. |
+| `Variação Desktops por Continente %` | Comparar o comportamento de Desktops entre os continentes. |
+| `Faturamento por Categoria 2018` | Apresentar o faturamento por categoria em 2018. |
 
 Também foram utilizadas medidas de faturamento por categoria e subcategoria para construção dos rankings e identificação dos maiores resultados.
 
@@ -238,15 +239,15 @@ O relatório final foi organizado em duas páginas, com navegação entre elas.
 
 Esta página apresenta a visão geral do desempenho comercial durante todo o período analisado.
 
-
+![Dashboard de Análise Exploratória](./dashboard-analise-exploratoria.jpg)
 
 **Indicadores principais**
 
-| Indicador           |         Resultado |
-| ------------------- | ----------------: |
-| Faturamento Total   | R$ 171,38 milhões |
-| Meta Total          | R$ 205,02 milhões |
-| Atingimento da Meta |            83,59% |
+| Indicador | Resultado |
+|---|---:|
+| Faturamento Total | R$ 171,38 milhões |
+| Meta Total | R$ 205,02 milhões |
+| Atingimento da Meta | 83,59% |
 
 **Visualizações desenvolvidas**
 
@@ -266,14 +267,14 @@ Esta página apresenta a visão geral do desempenho comercial durante todo o per
 
 Esta página apresenta a evolução do faturamento entre os dois anos, destacando os segmentos que apresentaram crescimento ou retração.
 
-
+![Dashboard Comparativo 2017 x 2018](./dashboard-comparativo-2017-2018.jpg)
 
 **Indicadores principais**
 
-| Indicador                                  | Resultado |
-| ------------------------------------------ | --------: |
-| Variação do Faturamento                    |   +27,19% |
-| Variação da Representatividade de Desktops |   -24,94% |
+| Indicador | Resultado |
+|---|---:|
+| Variação do Faturamento | +27,19% |
+| Variação da Representatividade de Desktops | -24,94% |
 
 **Visualizações desenvolvidas**
 
@@ -292,28 +293,28 @@ Esta seção segue a ordem das perguntas apresentadas no PDF original.
 
 ### 9.1. Análise Exploratória
 
-| Nº | Pergunta                                                                                 | Resultado                                      |
-| -: | ---------------------------------------------------------------------------------------- | ---------------------------------------------- |
-|  1 | Qual foi o faturamento de todo o período?                                                | **R$ 171,38 milhões**                          |
-|  2 | Qual era a meta de faturamento deste período?                                            | **R$ 205,02 milhões**                          |
-|  3 | Qual foi o percentual de atendimento da meta?                                            | **83,59%**                                     |
-|  4 | Qual foi a categoria com maior faturamento?                                              | **Computers**                                  |
-|  5 | Quanto essa categoria representa no faturamento total?                                   | **74,33%**                                     |
-|  6 | Quais foram as três subcategorias com maior faturamento?                                 | **Projectors & Screens, Laptops e Desktops**   |
-|  7 | Considerando essas três subcategorias, quais continentes apresentaram maior faturamento? | **Europe, Asia e North America**, nessa ordem. |
+| Nº | Pergunta | Resultado |
+|---:|---|---|
+| 1 | Qual foi o faturamento de todo o período? | **R$ 171,38 milhões** |
+| 2 | Qual era a meta de faturamento deste período? | **R$ 205,02 milhões** |
+| 3 | Qual foi o percentual de atendimento da meta? | **83,59%** |
+| 4 | Qual foi a categoria com maior faturamento? | **Computers** |
+| 5 | Quanto essa categoria representa no faturamento total? | **74,33%** |
+| 6 | Quais foram as três subcategorias com maior faturamento? | **Projectors & Screens, Laptops e Desktops** |
+| 7 | Considerando essas três subcategorias, quais continentes apresentaram maior faturamento? | **Europe, Asia e North America**, nessa ordem. |
 
 ### 9.2. Comparativo entre 2017 e 2018
 
-| Nº | Pergunta                                                                 | Resultado                                           |
-| -: | ------------------------------------------------------------------------ | --------------------------------------------------- |
-|  8 | Qual foi a variação entre o faturamento de 2018 e o ano anterior?        | **Crescimento de 27,19%**                           |
-|  9 | A variação foi positiva em todas as subcategorias?                       | **Não. Desktops apresentou queda de 4,53%.**        |
-| 10 | Qual foi a variação da representatividade de Desktops entre 2018 e 2017? | **-24,94%**                                         |
-| 11 | Qual continente foi responsável pela queda de faturamento de Desktops?   | **Europe, com redução de 21,08%.**                  |
-| 12 | Qual categoria apresentou o maior faturamento em 2018? Qual o valor?     | **Computers — R$ 60.015.300,44**                    |
-| 13 | Qual categoria apresentou a maior variação percentual entre 2017 e 2018? | **TV and Video — crescimento de 131,86%.**          |
-| 14 | Quais foram as três subcategorias com maior faturamento em 2018?         | **Projectors & Screens, Laptops e Desktops.**       |
-| 15 | São as mesmas subcategorias em destaque considerando todos os períodos?  | **Sim. As três subcategorias permanecem no Top 3.** |
+| Nº | Pergunta | Resultado |
+|---:|---|---|
+| 8 | Qual foi a variação entre o faturamento de 2018 e o ano anterior? | **Crescimento de 27,19%** |
+| 9 | A variação foi positiva em todas as subcategorias? | **Não. Desktops apresentou queda de 4,53%.** |
+| 10 | Qual foi a variação da representatividade de Desktops entre 2018 e 2017? | **-24,94%** |
+| 11 | Qual continente foi responsável pela queda de faturamento de Desktops? | **Europe, com redução de 21,08%.** |
+| 12 | Qual categoria apresentou o maior faturamento em 2018? Qual o valor? | **Computers — R$ 60.015.300,44** |
+| 13 | Qual categoria apresentou a maior variação percentual entre 2017 e 2018? | **TV and Video — crescimento de 131,86%.** |
+| 14 | Quais foram as três subcategorias com maior faturamento em 2018? | **Projectors & Screens, Laptops e Desktops.** |
+| 15 | São as mesmas subcategorias em destaque considerando todos os períodos? | **Sim. As três subcategorias permanecem no Top 3.** |
 
 ---
 
