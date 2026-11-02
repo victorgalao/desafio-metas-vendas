@@ -235,7 +235,7 @@ A primeira página apresenta uma visão consolidada do desempenho comercial dura
 
 A segunda página apresenta a evolução do faturamento entre 2017 e 2018, destacando o desempenho das categorias, subcategorias e continentes.
 
-![Dashboard Comparativo 2017 x 2018](./dashboard-comparativo-2017-2018.jpg)
+![Dashboard Comparativo 2017 x 2018](./dashboard-comparativo-2017-2018-final.jpg)
 
 **Comparativo anual de faturamento e metas:**
 
