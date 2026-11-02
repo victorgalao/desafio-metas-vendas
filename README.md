@@ -1,9 +1,6 @@
 
 # Projeto Vendas x Metas — Power BI
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Relat%C3%B3rio-yellow)
-![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-success)
-
 ## 1. Sobre o projeto
 
 Este projeto foi desenvolvido para atender ao desafio **Vendas x Metas**, cujo objetivo é construir um dashboard capaz de analisar a evolução do faturamento, compará-lo com as metas comerciais e apresentar uma visão comparativa entre 2017 e 2018.
